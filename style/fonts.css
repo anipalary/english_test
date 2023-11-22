@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../fonts/bebasneue/bebasneuebold.ttf'),
+        url('../fonts/bebasneue/bebasneuebold.woff'),
+        url('../fonts/bebasneue/bebasneuebold.woff2'),
+        url('../fonts/bebasneue/BebasNeueCyrillicRegular.ttf'),
+        url('../fonts/bebasneue/bebasneueregular.ttf'),
+        url('../fonts/bebasneue/bebasneueregular.woff'),
+        url('../fonts/bebasneue/bebasneueregular.woff2');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Black.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Bold.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Heavy.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Light.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-Thin.ttf'),
+        url('../fonts/HelveticaNeue/HelveticaNeueCyr-UltraLight.ttf');
+}
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo/MuseoSansCyrl-300.eot'),
+        url('../fonts/Museo/MuseoSansCyrl-300.ttf'),
+        url('../fonts/Museo/MuseoSansCyrl-300.woff'),
+        url('../fonts/Museo/MuseoSansCyrl-500.eot'),
+        url('../fonts/Museo/MuseoSansCyrl-500.ttf'),
+        url('../fonts/Museo/MuseoSansCyrl-500.woff'),
+        url('../fonts/Museo/MuseoSansCyrl-700.eot'),
+        url('../fonts/Museo/MuseoSansCyrl-700.ttf'),
+        url('../fonts/Museo/MuseoSansCyrl-700.woff'),
+        url('../fonts/Museo/MuseoSansCyrl-900.eot'),
+        url('../fonts/Museo/MuseoSansCyrl-900.ttf'),
+        url('../fonts/Museo/MuseoSansCyrl-900.woff');
+}

@@ -1,0 +1,106 @@
+.h_content{
+    left: 15%;
+    top: 50px;
+    width: 60%;
+}
+.h_content .p1{
+    font-family: Museo;
+    font-size: 44px;
+    line-height: 53px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    font-weight: bold;
+    color: #232323;
+
+}
+.h_content .p2{
+    font-family: Helvetica Neue;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #232323;
+}
+.h_subcontent{
+    width: 70%;
+}
+
+.date{
+    width: 209px;
+    border-radius: 10px;
+    background-color: #424242CC;
+    padding: 10px;
+    margin-right: 22px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.date div{
+    display: inline-block;
+}
+.date_d{
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    display: inline;
+}
+.date_m{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.date_c{
+    font-family: Museo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #D2E400;
+}
+
+.h_button1, .h_button2{
+    width: 235px;
+    top: 578px;
+    left: 168px;
+    border-radius: 5px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    display: inline-block;
+    transition-duration: 500ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+.h_button1{
+    background-color: #E10000;
+    border: 1px solid #E10000;
+    color: #FFFFFF;
+}
+.h_button1:hover{
+    background-color: #8f0000;
+    border: 1px solid #FFFFFF;
+
+}
+.h_button2{
+    border: 1px solid #171717;
+    color: #171717;
+}
+.h_button2:hover{
+    border: 1px solid #FFFFFF;
+    background-color: #8f0000;
+    color: #FFFFFF;
+}

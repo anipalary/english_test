@@ -1,0 +1,88 @@
+.form{
+    background-color: #F5C618;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+.form_header{
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+.form_comment{
+    width: 424px;
+    margin: auto;
+    margin-top: 23px;
+    font-family: Museo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.form form{
+    width: 553px;
+    margin: auto;
+    margin-top: 17px;
+    text-align: center;
+}
+.form form input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border: none;
+
+    text-align: center;
+    font-family: Museo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+}
+.form form input[type=submit]{
+    background-color: #E10000;
+    border: 1px solid #E10000;
+    transition-duration: 500ms;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.form form input[type=submit]:hover{
+    background-color: #790000;
+    border: 1px solid #FFFFFF;
+}
+.form_conditions{
+    width: 553px;
+    margin: auto;
+    margin-top: 17px;
+    font-family: Museo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.form_success{
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin: 200px;
+}
+.form_error{
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: red;
+}

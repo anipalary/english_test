@@ -1,0 +1,41 @@
+@import url(h_content.css);
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height:840px;
+    background-image: url(../img/blur_coffee.png);
+    background-size: cover;
+}
+.coffee1, .coffee2, .guy, .yellow_bg, .yellow_gradient, .h_content{
+    position: absolute;
+}
+.yellow_bg{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FECE00D4;
+}
+.coffee1{
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.coffee2{
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.guy{
+    bottom: 0;
+    right: 10%;
+}
+
+.empty_yellow_block{
+    background-color: #F8C712;
+    height: 150px;
+    display: none;
+}

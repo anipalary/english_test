@@ -1,0 +1,101 @@
+@media screen and (max-width: 1440px) {
+    .h_content .p1{
+        font-size: 33px;
+    }
+    .h_content .p2{
+        width: 340px;
+        font-size: 22px;
+    }
+    .h_button1, .h_button2{
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+
+    .p_title{
+        font-size: 16px;
+        margin: 0;
+    }
+    .p_price{
+        font-size: 23px;
+    }
+    .p_percent{
+        font-size: 12px;
+        padding: 3px;
+        left: 2px;
+        top: -22px;
+        margin: 0;
+    }
+    .p_oldprice{
+        font-size: 18px;
+    }
+    .p_list{
+        font-size: 8px;
+    }
+    .p_pre{
+        font-size: 12px;
+    }
+    .p_prepay{
+        font-size: 22px;
+    }
+    .p_button{
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .gift{
+        width: 800px;
+        height: 261px;
+    }
+    .gift_text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .plus_symbol{
+        font-size: 60px;
+        top: 20%;
+    }
+
+    .form_header{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .form_comment{
+        margin-top: 10px;
+        font-size: 12px;
+        width: 226px;
+        line-height: 16px;
+    }
+    .form form{
+        width: 268px;
+
+    }
+    .form form input{
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form_conditions{
+        font-size: 8px;
+        width: 268px;
+    }
+    .form_success{
+        font-size: 20px;
+    }
+    .form_error{
+        font-size: 20px;
+    }
+    
+    footer{
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 11px;
+    }
+    footer span{
+        display: inline;
+    }
+    .f_logo{
+        width: 121px;
+    }
+}
