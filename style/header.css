@@ -2,40 +2,46 @@
 
 header{
     position: relative;
+    display: flex;
+    flex-direction: row;
     left: 0;
     top: 0;
     right: 0;
-    height:840px;
+    height:791px;
     background-image: url(../img/blur_coffee.png);
     background-size: cover;
 }
-.coffee1, .coffee2, .guy, .yellow_bg, .yellow_gradient, .h_content{
-    position: absolute;
-}
-.yellow_bg{
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: #FECE00D4;
-}
 .coffee1{
+    position: relative;
     left: 0;
     top: 0;
     bottom: 0;
+}
+
+.right-img{
+    height: 100%;
+    width: 1px;
 }
 .coffee2{
-    right: 0;
+    position: relative;
+    left: -911px;
     top: 0;
     bottom: 0;
 }
 .guy{
-    bottom: 0;
-    right: 10%;
+    position: relative;
+    
+    top: -691px;
+    left: -600px;
 }
 
-.empty_yellow_block{
-    background-color: #F8C712;
-    height: 150px;
+.yellow_gradient{
+    position: absolute;
     display: none;
+    z-index: 1;
+    background: linear-gradient(0deg, #F8C712 30%, #FFFFFF00 70%);
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

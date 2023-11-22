@@ -9,64 +9,50 @@
 </head>
 <body>
     <header>
-        <div class="yellow_bg"></div>
         <img src="img/coffee1.png" class="coffee1">
-        <img src="img/coffee2.png" class="coffee2">
-        <img src="img/guy.png" class="guy">
         <div class="yellow_gradient"></div>
-
-        <div class="h_content">
-            <div class="h_subcontent">
-                <img src="img/logo1.png" class="logo">
-                <p class="p1">
-                    Вкладывайте незначительные деньги каждый день в копилку своих знаний.
-                </p>
-                <p class="p2">
-                    Следующий курс для вас будет стоить всего <b>178 рублей в день</b>
-                </p>
-            </div>
-            <div class="date">
-                <div class="date_d">01</div>
-                <div>
-                    <div class="date_m">Ноября</div><br>
-                    <div class="date_c">Ближайший старт</div>
+        <div class="h_wide">
+            <div class="h_content">
+                <div class="h_subcontent">
+                    <img src="img/logo1.png" class="logo">
+                    <p class="p1">
+                        Вкладывайте незначительные деньги каждый день в копилку своих знаний.
+                    </p>
+                    <p class="p2">
+                        Следующий курс для вас будет стоить всего <b>178 рублей в день</b>
+                    </p>
                 </div>
-            </div>
-            <div class="date">
-                <div class="date_d">21</div>
-                <div>
-                    <div class="date_m">Октября</div><br>
-                    <div class="date_c">Конец акции</div>
+                <div class="date">
+                    <div class="date_d">01</div>
+                    <div>
+                        <div class="date_m">Ноября</div><br>
+                        <div class="date_c">Ближайший старт</div>
+                    </div>
                 </div>
+                <div class="date">
+                    <div class="date_d">21</div>
+                    <div>
+                        <div class="date_m">Октября</div><br>
+                        <div class="date_c">Конец акции</div>
+                    </div>
+                </div>
+                <br>
+                <a class="h_button1" href="#prices">Узнать подробнее</a>
+                <a class="h_button2" href="#form">Бесплатная консультация</a>
             </div>
-            <br>
-            <a class="h_button1" href="#prices">Узнать подробнее</a>
-            <a class="h_button2" href="#form">Бесплатная консультация</a>
+        </div>
+        <div class="right-img">
+            <img src="img/coffee2.png" class="coffee2">
+            <img src="img/guy.png" class="guy">
         </div>
     </header>
-    <div class="empty_yellow_block"></div>
     <div class="prices" id="prices">
         <h1>Выберите свой вариант обучения </h1>
         <div class="price_list">
             <?php require_once "php/prices.php";?>
         </div>
     </div>
-    <div class="gift">
-        <div class="banner">
-            <div class="dr_rectangle"></div>
-            <img src="img/coffee3.png" class="coffee3">
-            <img src="img/coffee4.png" class="coffee4">
-            <img src="img/bantik.png" class="bantik">
-            <img src="img/paper1.png" class="paper1">
-            <span class="plus_symbol">+</span>
-            <img src="img/paper2.png" class="paper2">
-            <img src="img/gift.png" class="gift_head">
-            <p class="gift_text">
-                <b>Спецкурс</b> "Английский для эмиграции"<br>
-                <b>Спецкурс</b> "Как преодолеть языковой барьер"
-            </p>
-        </div>
-    </div>
+    <img src="img/gift_banner.png" class="gift">
     <div class="form" id="form">
         <?php require "php/form.php"; ?>
         <p class="form_success" style=<?= $form_success ? '"display: block;"' : '"display: none;"'?>>Ваши данные успешно отправлены</p>

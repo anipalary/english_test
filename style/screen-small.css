@@ -1,16 +1,23 @@
 @media screen and (max-width: 960px) {
     .coffee1{
-        display: none;
+        left: -100px;
     }
     .coffee2{
-        height: 80%;
-        right: -240px;
+        left: -561px;
     }
     .guy{
-        right: -240px;
+        left: -300px;
+    }
+    .h_content{
+        position: relative;
+        left: -100px;
+        width: 209px;
     }
     .h_content .p1{
-        margin-top: 0;
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
     }
     .h_content .p2{
         font-size: 14px;
@@ -21,18 +28,31 @@
     .date{
         display: block;
         margin-top: 5px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .date_d{
+        font-size: 35px;
+        margin-right: 10px;
+    }
+    .date_m{
+        font-size: 16px;
+    }
+    .date_c{
+        font-size: 12px;
     }
     .h_button1, .h_button2{
         display: block;
         margin-top: 10px;
+        width: 235px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .h_button1{
+        margin-top: 40px;
     }
     .yellow_gradient{
-        position: absolute;
-        background: linear-gradient(0deg, #F8C712 0%, #FFFFFF00 100%);
-        top: 50%;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        display: block;
     }
 
     .p_title{
@@ -64,19 +84,6 @@
         padding: 20px;
     }
 
-    .gift{
-        width: 800px;
-        height: 261px;
-    }
-    .gift_text{
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .plus_symbol{
-        font-size: 60px;
-        top: 20%;
-    }
-
     .price_block{
         display: block;
     }
@@ -84,15 +91,7 @@
         width: 400px;
         height: 130px;
     }
-    .gift_text{
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .plus_symbol{
-        font-size: 40px;
-        top: -10%;
-    }
-
+    
     footer{
         font-size: 8px;
         line-height: 14.4px;
@@ -106,10 +105,5 @@
     }
     .f_logo{
         width: 77px;
-    }
-}
-@media screen and (max-width: 810px) {
-    .empty_yellow_block{
-        display: block;
     }
 }

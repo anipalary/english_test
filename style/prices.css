@@ -7,80 +7,11 @@
     text-align: center;
 
 }
-
 .gift{
-    position: relative;
+    display: table;
     margin: auto;
     width: 1105px;
     height: 361px;
     border-radius: 20px;
-    background: linear-gradient(267.95deg, #F5C618 1.36%, #FFE481 97.73%);
     margin-top: 100px;
-
-    overflow: hidden;
-}
-.coffee3, .coffee4, .bantik, .paper1, .paper2, .gift_head, .gift_text, .dr_rectangle, .plus_symbol{
-    position: absolute;
-}
-.dr_rectangle{
-    width: 56%;
-    height: 195%;
-    top: -14%;
-    left: -20%;
-    border-radius: 70px;
-    rotate: 21.52deg;
-    background: linear-gradient(200.59deg, #2E2F0B 2.5%, rgba(140, 142, 8, 0) 86.35%);
-}
-.coffee4{
-    top:0;
-    left: 7%;
-    width: 68%;
-}
-.coffee3{
-    bottom: 0;
-    right: 0;
-    width: 29%;
-}
-.bantik{
-    right: 0;
-    top: 0;
-    width: 29%;
-}
-.gift_head{
-    left: 45%;
-    top: 28%;
-    width: 30%;
-}
-.gift_text{
-    font-family: Helvetica Neue;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    left: 45%;
-    top: 56%;
-}
-.paper1{
-    left: 1.6%;
-    top: 25%;
-    width: 17%;
-}
-.plus_symbol{
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 150px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    top: 30.5%;
-    left: 16.6%;
-    rotate: -8.04deg;
-
-}
-.paper2{
-    top: 11.6%;
-    left: 23.5%;
-    width: 17%;
-    
 }

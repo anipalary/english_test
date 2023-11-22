@@ -1,7 +1,10 @@
+.h_wide{
+    width: 100%;
+    z-index: 2;
+    margin-top: 20px;
+}
 .h_content{
-    left: 15%;
-    top: 50px;
-    width: 60%;
+    width: 629px;
 }
 .h_content .p1{
     font-family: Museo;
@@ -22,9 +25,6 @@
     text-align: left;
     color: #232323;
 }
-.h_subcontent{
-    width: 70%;
-}
 
 .date{
     width: 209px;
@@ -34,6 +34,7 @@
     margin-right: 22px;
     margin-top: 30px;
     display: inline-block;
+    transition-duration: 500ms;
 }
 .date div{
     display: inline-block;

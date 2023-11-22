@@ -1,4 +1,22 @@
 @media screen and (max-width: 1440px) {
+    .logo{
+        height: 48px;
+    }
+    .coffee1{
+        left: -80px;
+    }
+    .coffee2{
+        left: -761px;
+    }
+    .guy{
+        left: -500px;
+    }
+    .date{
+        width: 173px;
+    }
+    .h_content{
+        width: 471px;
+    }
     .h_content .p1{
         font-size: 33px;
     }
@@ -7,9 +25,11 @@
         font-size: 22px;
     }
     .h_button1, .h_button2{
-        padding-left: 5px;
-        padding-right: 5px;
-        
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 215px;
+        font-size: 16px;
     }
 
     .p_title{
@@ -47,14 +67,7 @@
         width: 800px;
         height: 261px;
     }
-    .gift_text{
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .plus_symbol{
-        font-size: 60px;
-        top: 20%;
-    }
+
 
     .form_header{
         font-size: 20px;
